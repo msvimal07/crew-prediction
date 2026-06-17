@@ -1,0 +1,15 @@
+autogluon.tabular==1.5.0
+streamlit==1.56.0
+pandas
+numpy
+scikit-learn
+plotly
+matplotlib
+seaborn
+catboost
+xgboost
+lightgbm
+torch
+ipywidgets
+jupyter
+notebook

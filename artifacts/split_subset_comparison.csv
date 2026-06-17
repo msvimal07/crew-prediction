@@ -1,0 +1,5 @@
+mae,rmse,r2,mape,candidate,model_path,feature_count,best_model,split_strategy,feature_set
+1.3164205684661865,1.7372178384333077,0.998522664913835,0.902028484176429,random_selected,models\split_subset_experiments\random_selected,44,WeightedEnsemble_L2,random,selected
+1.3587154064178466,1.7694569072078419,0.9984673237324109,0.9316376550484865,random_full,models\split_subset_experiments\random_full,51,WeightedEnsemble_L2,random,full
+1.4067305335998534,1.9029033647918228,0.9983338809656169,0.9069168828627098,time_full,models\split_subset_experiments\time_full,51,WeightedEnsemble_L2,time,full
+1.7559763641357422,2.346513717428513,0.9974665125772199,1.1202760356647907,time_selected,models\split_subset_experiments\time_selected,44,WeightedEnsemble_L2,time,selected

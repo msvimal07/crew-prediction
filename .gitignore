@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# AutoGluon experiments (ignore)
+models/ground_crew_autogluon_identity/
+models/ground_crew_autogluon_transformed/
+models/split_subset_experiments/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
