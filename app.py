@@ -6,7 +6,6 @@
 from __future__ import annotations
 
 import json
-import importlib.util
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -499,10 +498,7 @@ with tab3:
     with p1:
         if PREDICTION_ARTIFACT_PATH.exists():
             preds = pd.read_csv(PREDICTION_ARTIFACT_PATH)
-            trendline_mode = "ols" if importlib.util.find_spec("statsmodels") is not None else None
-            fig = px.scatter(preds, x="actual", y="predicted", trendline=trendline_mode, title="Actual vs Predicted")
-            if trendline_mode is None:
-                st.caption("Trendline disabled because statsmodels is not installed in this runtime.")
+            fig = px.scatter(preds, x="actual", y="predicted", trendline="ols", title="Actual vs Predicted")
             fig.add_trace(
                 go.Scatter(
                     x=[preds["actual"].min(), preds["actual"].max()],
