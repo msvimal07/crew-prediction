@@ -4,12 +4,6 @@ pandas
 numpy
 scikit-learn
 plotly
-matplotlib
-seaborn
 catboost
-xgboost
 lightgbm
-torch
-# ipywidgets
-# jupyter
-# notebook
+statsmodels
