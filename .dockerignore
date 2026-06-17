@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+venv/
+.venv/
+.env
+ground_crew_requirement_prediction.ipynb
+train_ground_crew_model.py
+models/*
+!models/split_subset_experiments/
+models/split_subset_experiments/*
+!models/split_subset_experiments/random_selected/
+!models/split_subset_experiments/random_selected/**

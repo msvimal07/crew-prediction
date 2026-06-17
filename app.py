@@ -492,7 +492,7 @@ with tab3:
         c3.metric("R2", f"{evaluation_report.get('r2', 0):.3f}")
         c4.metric("MAPE", f"{evaluation_report.get('mape', 0):.2f}%")
     else:
-        st.info("Evaluation report will appear after the notebook saves model artifacts.")
+        st.info("Evaluation report will reappear after the notebook saves model artifacts.")
 
     p1, p2 = st.columns(2)
     with p1:

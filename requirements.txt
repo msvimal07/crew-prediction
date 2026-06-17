@@ -10,6 +10,6 @@ catboost
 xgboost
 lightgbm
 torch
-ipywidgets
-jupyter
-notebook
+# ipywidgets
+# jupyter
+# notebook
